@@ -67,15 +67,17 @@
     <div class="container">
         <div class="row mb-4 mt-4">
             <div class="col-md-12">
-            <div class="card text-center">
-                <div class="card-body p-0">
-                    <img src="imagenes/<?= $articulo_grande['imagen'] ?>" height="100" class="img-fluid" alt="noticia principal">
+            <a href="articulo.php?id=<?= $articulo_grande['id'] ?>">
+                <div class="card text-center">
+                    <div class="card-body p-0">
+                        <img src="imagenes/<?= $articulo_grande['imagen'] ?>" height="100" class="img-fluid" alt="noticia principal">
+                    </div>
+                    <div class="card-footer">
+                        <h1 class="card-title"><?= $articulo_grande['titulo'] ?></h1>
+                    </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <h1 class="card-title"><?= $articulo_grande['titulo'] ?></h1>
-                </div>
-                </div>
-            </div>
+            </a>
         </div>
 
         <div class="row">
@@ -88,7 +90,7 @@
                             <p class="card-text">
                                 <?= $articulo['resumen'] ?>
                             </p>
-                            <a href="#" class="btn btn-primary">Ver más</a>
+                            <a href="articulo.php?id=<?= $articulo['id'] ?>" class="btn btn-primary">Ver más</a>
                         </div>
                     </div>
                 <?php endforeach; ?>
@@ -100,7 +102,7 @@
                             <h5 class="card-title"><?= $articulo['titulo'] ?></h5>
                             <h6 class="card-subtitle mb-2 text-muted"><?= $articulo['autor'] ?></h6>
                             <p class="card-text"><?= $articulo['resumen'] ?></p>
-                            <a href="#" class="card-link">Leer Más</a>
+                            <a href="articulo.php?id=<?= $articulo['id'] ?>" class="card-link">Leer Más</a>
                         </div>
                     </div>
                 <?php endforeach; ?>
