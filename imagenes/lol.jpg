@@ -1,0 +1,11 @@
+--2018-07-13 20:03:48--  https://media.makeameme.org/created/its-friday-h53ktw.jpg
+Resolving media.makeameme.org (media.makeameme.org)... 104.25.26.10, 104.25.27.10, 2400:cb00:2048:1::6819:1b0a, ...
+Connecting to media.makeameme.org (media.makeameme.org)|104.25.26.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 47300 (46K) [image/jpeg]
+Saving to: ‘its-friday-h53ktw.jpg’
+
+     0K .......... .......... .......... .......... ......    100% 2.21M=0.02s
+
+2018-07-13 20:03:49 (2.21 MB/s) - ‘its-friday-h53ktw.jpg’ saved [47300/47300]
+

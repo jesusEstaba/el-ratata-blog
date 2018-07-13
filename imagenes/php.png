@@ -1,0 +1,12 @@
+--2018-07-13 20:05:25--  http://www.solucionespm.com/wp-content/uploads/2014/11/php_elephant.png
+Resolving www.solucionespm.com (www.solucionespm.com)... 50.87.50.230
+Connecting to www.solucionespm.com (www.solucionespm.com)|50.87.50.230|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 87682 (86K) [image/png]
+Saving to: ‘php_elephant.png’
+
+     0K .......... .......... .......... .......... .......... 58%  689K 0s
+    50K .......... .......... .......... .....                100% 49.9M=0.07s
+
+2018-07-13 20:05:25 (1.14 MB/s) - ‘php_elephant.png’ saved [87682/87682]
+
